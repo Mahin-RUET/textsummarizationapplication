@@ -22,7 +22,7 @@ pip install nltk
 ```bash
 pip install tk
 ```
-#Running the Application
+# Running the Application
 To run the Text Summarization Application, follow these steps:
 
 -Clone or download the project from the GitHub repository: Text Summarization Application Repository.
