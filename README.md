@@ -38,6 +38,7 @@ To run the Text Summarization Application, follow these steps:
 -The summarized text will be displayed in the result area.
 # Acknowledgments
 -Thanks to the NLTK library for providing natural language processing capabilities.
+
 -Special thanks to the Tkinter library for creating the GUI.
 ## Author
 
