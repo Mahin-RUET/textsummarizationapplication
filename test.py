@@ -7,7 +7,7 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 from heapq import nlargest
 
 def summarize_text(text, num_sentences=3):
-    # Your existing summarization function remains unchanged
+   
     # Tokenize the text into sentences and words
     sentences = sent_tokenize(text)
     words = word_tokenize(text)
@@ -66,35 +66,19 @@ window.geometry('700x500')
 style = ttk.Style(window)
 style.configure('lefttab.TNotebook', tabposition="wn")
 
-# ... Your existing code for tabs, labels, and frames ...
+
 tab_control = ttk.Notebook(window, style='lefttab.TNotebook')
 
 tab1 = ttk.Frame(tab_control)
-#tab2 = ttk.Frame(tab_control)
-#tab3 = ttk.Frame(tab_control)
-#tab4 = ttk.Frame(tab_control)
-#tab5 = ttk.Frame(tab_control)
+
 
 tab_control.add(tab1, text=f'{"Home":^20s}')
-#tab_control.add(tab2, text=f'{"file":^20s}')
-#tab_control.add(tab3, text=f'{"URL":^20s}')
-#tab_control.add(tab4, text=f'{"Compare":^20s}')
-#tab_control.add(tab5, text=f'{"About":^20s}')
+
 
 Label1 = Label(tab1, text='Summaryzer', padx=5, pady=5)
 Label1.grid(column=0, row=0)
 
-#Label2 = Label(tab2, text='file processing ', padx=5, pady=5)
-#Label2.grid(column=0, row=0)
 
-#Label3 = Label(tab3, text='URL', padx=5, pady=5)
-#Label3.grid(column=0, row=0)
-
-#Label4 = Label(tab4, text='compare', padx=5, pady=5)
-#Label4.grid(column=0, row=0)
-
-#Label5 = Label(tab5, text='About', padx=5, pady=5)
-#Label5.grid(column=0, row=0)
 
 l1 = Label(tab1, text='Enter Text to summarize', padx=5, pady=5)
 l1.grid(row=1, column=0)
